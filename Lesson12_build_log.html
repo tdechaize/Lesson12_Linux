@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>lesson12 build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>26-03-2023 at 18:38.39</u><br />
+Build ended on: <u>26-03-2023 at 18:38.41</u><p />
+<b>-------------- Build: GNUC 32b Debug in lesson12 (compiler: GNU GCC Compiler 32b)---------------</b><br />
+gcc -Wall -g -D_DEBUG -DDEBUG -m32 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson12/src/lesson12.c -o objgcc32/Debug/src/lesson12.o<br />
+gcc -Wall -g -D_DEBUG -DDEBUG -m32 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson12/src/logger.c -o objgcc32/Debug/src/logger.o<br />
+gcc -L/usr/lib/i386-linux-gnu -o bingcc32/Debug/lesson12.exe objgcc32/Debug/src/lesson12.o objgcc32/Debug/src/logger.o  -m32  -lGL -lglut -lGLU -lm<br />
+Output file is bingcc32/Debug/lesson12.exe with size 35,43 KB<br />
+<b>-------------- Build: GNUC 32b Release in lesson12 (compiler: GNU GCC Compiler 32b)---------------</b><br />
+gcc -Wall -m32 -DNDEBUG -m32 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson12/src/lesson12.c -o objgcc32/Release/src/lesson12.o<br />
+gcc -Wall -m32 -DNDEBUG -m32 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson12/src/logger.c -o objgcc32/Release/src/logger.o<br />
+gcc -L/usr/lib/i386-linux-gnu -o bingcc32/Release/lesson12.exe objgcc32/Release/src/lesson12.o objgcc32/Release/src/logger.o  -m32 -m32  -lGL -lglut -lGLU -lm<br />
+Output file is bingcc32/Release/lesson12.exe with size 21,20 KB<br />
+<b>-------------- Build: GNUC 64b Debug in lesson12 (compiler: GNU GCC Compiler)---------------</b><br />
+gcc -Wall -g -D_DEBUG -DDEBUG -m64 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson12/src/lesson12.c -o objgcc64/Debug/src/lesson12.o<br />
+gcc -Wall -g -D_DEBUG -DDEBUG -m64 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson12/src/logger.c -o objgcc64/Debug/src/logger.o<br />
+gcc -L/usr/lib/x86_64-linux-gnu -o bingcc64/Debug/lesson12.exe objgcc64/Debug/src/lesson12.o objgcc64/Debug/src/logger.o  -m64  -lGL -lglut -lGLU -lm<br />
+Output file is bingcc64/Debug/lesson12.exe with size 41,67 KB<br />
+<b>-------------- Build: GNUC 64b Release in lesson12 (compiler: GNU GCC Compiler)---------------</b><br />
+gcc -Wall -O2 -DNDEBUG -m64 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson12/src/lesson12.c -o objgcc64/Release/src/lesson12.o<br />
+gcc -Wall -O2 -DNDEBUG -m64 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson12/src/logger.c -o objgcc64/Release/src/logger.o<br />
+gcc -L/usr/lib/x86_64-linux-gnu -o bingcc64/Release/lesson12.exe objgcc64/Release/src/lesson12.o objgcc64/Release/src/logger.o  -s -m64  -lGL -lglut -lGLU -lm<br />
+Output file is bingcc64/Release/lesson12.exe with size 22,27 KB<br />
+<b>-------------- Build: CLANG 32b Debug in lesson12 (compiler: LLVM Clang Compiler 32b)---------------</b><br />
+clang -Wall -O0 -D_DEBUG -DDEBUG --target=i686-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson12/src/lesson12.c -o objclang32/Debug/src/lesson12.o<br />
+clang -Wall -O0 -D_DEBUG -DDEBUG --target=i686-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson12/src/logger.c -o objclang32/Debug/src/logger.o<br />
+clang -L/usr/lib/clang/14.0.6/lib/linux -o binclang32/Debug/lesson12.exe objclang32/Debug/src/lesson12.o objclang32/Debug/src/logger.o  --target=i686-pc-linux-gnu  -lGL -lglut -lGLU -lm<br />
+Output file is binclang32/Debug/lesson12.exe with size 25,47 KB<br />
+<b>-------------- Build: CLANG 32b Release in lesson12 (compiler: LLVM Clang Compiler 32b)---------------</b><br />
+clang -Wall -O2 -DNDEBUG --target=i686-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson12/src/lesson12.c -o objclang32/Release/src/lesson12.o<br />
+clang -Wall -O2 -DNDEBUG --target=i686-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson12/src/logger.c -o objclang32/Release/src/logger.o<br />
+clang -L/usr/lib/clang/14.0.6/lib/linux -o binclang32/Release/lesson12.exe objclang32/Release/src/lesson12.o objclang32/Release/src/logger.o  -s --target=i686-pc-linux-gnu  -lGL -lglut -lGLU -lm<br />
+Output file is binclang32/Release/lesson12.exe with size 17,83 KB<br />
+<b>-------------- Build: CLANG 64b Debug in lesson12 (compiler: LLVM Clang Compiler)---------------</b><br />
+clang -Wall -O0 -D_DEBUG -DDEBUG --target=x86_64-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson12/src/lesson12.c -o objclang64/Debug/src/lesson12.o<br />
+clang -Wall -O0 -D_DEBUG -DDEBUG --target=x86_64-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson12/src/logger.c -o objclang64/Debug/src/logger.o<br />
+clang -L/usr/lib/clang/14.0.6/lib/linux -o binclang64/Debug/lesson12.exe objclang64/Debug/src/lesson12.o objclang64/Debug/src/logger.o  --target=x86_64-pc-linux-gnu  -lGL -lglut -lGLU -lm<br />
+Output file is binclang64/Debug/lesson12.exe with size 27,44 KB<br />
+<b>-------------- Build: CLANG 64b Release in lesson12 (compiler: LLVM Clang Compiler)---------------</b><br />
+clang -Wall -O2 -DNDEBUG --target=x86_64-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson12/src/lesson12.c -o objclang64/Release/src/lesson12.o<br />
+clang -Wall -O2 -DNDEBUG --target=x86_64-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson12/src/logger.c -o objclang64/Release/src/logger.o<br />
+clang -L/usr/lib/clang/14.0.6/lib/linux -o binclang64/Release/lesson12.exe objclang64/Release/src/lesson12.o objclang64/Release/src/logger.o  -s --target=x86_64-pc-linux-gnu  -lGL -lglut -lGLU -lm<br />
+Output file is binclang64/Release/lesson12.exe with size 22,85 KB<br />
+<b>-------------- Build: Archive in lesson12 (compiler: GNU GCC Compiler)---------------</b><br />
+rm --interactive=never *.7z || true<br />
+rm --interactive=never *.tar || true<br />
+rm: impossible de supprimer '*.tar': Aucun fichier ou dossier de ce type<br />
+python3 /home/thierry/Sources/tools/Size_exec.py lesson12<br />
+        Tableau récapitulatif de la taille des exécutables générés pour le projet : lesson12<br />
+  Debug GCC 32b     :  35.4 KB et sa date dernière modification Sun Mar 26 18:38:39 2023 -&gt; ./bingcc32/Debug/lesson12.exe.<br />
+  Release GCC 32b   :  21.2 KB et sa date dernière modification Sun Mar 26 18:38:39 2023 -&gt; ./bingcc32/Release/lesson12.exe.<br />
+  Debug GCC 64b     :  41.7 KB et sa date dernière modification Sun Mar 26 18:38:39 2023 -&gt; ./bingcc64/Debug/lesson12.exe.<br />
+  Release GCC 64b   :  22.3 KB et sa date dernière modification Sun Mar 26 18:38:39 2023 -&gt; ./bingcc64/Release/lesson12.exe.<br />
+  Debug CLANG 32b   :  25.5 KB et sa date dernière modification Sun Mar 26 18:38:39 2023 -&gt; ./binclang32/Debug/lesson12.exe.<br />
+  Release CLANG 32b :  17.8 KB et sa date dernière modification Sun Mar 26 18:38:39 2023 -&gt; ./binclang32/Release/lesson12.exe.<br />
+  Debug CLANG 64b   :  27.4 KB et sa date dernière modification Sun Mar 26 18:38:40 2023 -&gt; ./binclang64/Debug/lesson12.exe.<br />
+  Release CLANG 64b :  22.9 KB et sa date dernière modification Sun Mar 26 18:38:40 2023 -&gt; ./binclang64/Release/lesson12.exe.<br />
+python3 /home/thierry/Sources/tools/Calc_checksums.py lesson12<br />
+Tableau récapitulatif des différents checksums générés pour le projet : lesson12<br />
+Calcul des cheksums du fichier : ./bingcc32/Debug/lesson12.exe.<br />
+Checksum CRC32  is 29f32e4f.<br />
+Checksum MD5 is 40aa7ef68e88773bd8062650c940821d.<br />
+Checksum SHA256 is 3a9fcbd2a89454674b8f602d305cd76cd95e389405d02b9e8beab0668ab717b9.<br />
+Checksum SHA512 is 5c7cde46231e0bdad7bd296a51f271eb47178ce95c72bac59ae1fd16dda1bb834e1433a3168bb008607b430a79f288ed29d7c5c60cda0d1879eb3aa34bb6c694.<br />
+Checksum RipeMD160 is ad1035ed88e90dfea5ebe7da78a1b0105aaf2e39.<br />
+Checksum BLAKE2B is dbd87bff1d6722c45fe553460947082defd5afbdbc3ec77f7b1176b561e0e7aa7e57a8de155ac84548d7abe24b9e66d9391e8b238b8ed7df388d0d891b0b223d.<br />
+Calcul des cheksums du fichier : ./bingcc32/Release/lesson12.exe.<br />
+Checksum CRC32  is e98b40c9.<br />
+Checksum MD5 is fb27d50431348ee4a87540c2cb658352.<br />
+Checksum SHA256 is b0118dd745607e5956bc9ccb94cfd962c769cb201c941ac95db98ceb620558ab.<br />
+Checksum SHA512 is 2ac4552ac19795bb47d64a1596b426bfc9057c00d92480f6765189487eb27b024b16c2e66d161d18c536fe158c3b0980c72b23e9c03223075261e02aafca9a42.<br />
+Checksum RipeMD160 is d37ef750c753faafbfecb92b1305ed0e2af26866.<br />
+Checksum BLAKE2B is ff8b7285aa66efea5a946fd0865a583b6048fa477ce2942752fa478eb3b9f4c8f3ed05c53bad6d8d0f0346bd12705fedb9d79e675b0065e0c3267bf6e3ba7c7c.<br />
+Calcul des cheksums du fichier : ./bingcc64/Debug/lesson12.exe.<br />
+Checksum CRC32  is f8aaced6.<br />
+Checksum MD5 is 0b5d14d5c6b5c49563298f13dca82611.<br />
+Checksum SHA256 is 072eb15498b0baaabe722768dfc179323553e075c559e5b89ae267c693703ffb.<br />
+Checksum SHA512 is a0a199fda43c0616a670bec8561ca4c1749222c1768db8df45cd42631a527265c1f3e637fe147b948d668e35fd52a3d9aeac7fbec9b08e17cfff2d8f420be12b.<br />
+Checksum RipeMD160 is 3fcc791d60fd803dfed241075a3252c0f7e15f15.<br />
+Checksum BLAKE2B is 67082c4ebd2b19c6a18763e2f3d53c6cf6a67130e2c69b26ef5108b2ffca9c89f62dab95440fd87b4060b4741ad56e21d7ea13375c1cf54994615663b9a4a267.<br />
+Calcul des cheksums du fichier : ./bingcc64/Release/lesson12.exe.<br />
+Checksum CRC32  is 6c7eed9c.<br />
+Checksum MD5 is aac935279fefc7f5594ead9fa488ea9f.<br />
+Checksum SHA256 is 63ddc0b7666fd4c09730314ac36682962e43484ac9917fa59fa90fb8fd2b8c72.<br />
+Checksum SHA512 is 10fe01aac32e9260dacdcf864bb9dd5e8ff6e3dec093ae19c30e1009c914b8e2ebded0c02d8499ea11656e60700c978fc62baab52f7c5fb6a9fe93ec24861d81.<br />
+Checksum RipeMD160 is f181ad7c5221c81d03a866876993188025b13295.<br />
+Checksum BLAKE2B is e85e07bc450e4779d69cf65e31bccbeb1b2f981f9d1a1c6c09f71fab61455483c4a05cb49e3c37cdaa70068d14b20c30087f8471872901f08fc1a778501535da.<br />
+Calcul des cheksums du fichier : ./binclang32/Debug/lesson12.exe.<br />
+Checksum CRC32  is 66dba838.<br />
+Checksum MD5 is 7c2d3904de5d993a95f9649798277089.<br />
+Checksum SHA256 is 6df040de4129cab036295b528fbe5405e624a53c2e3ccdb10ca586a53a7156f5.<br />
+Checksum SHA512 is f43aa6d361a01622e2e5eab15ffa7b9cb28a04791ff26d153ba8f2e6ad2606ed5e1908514a2d9b67ae5e62bae5e6217f65beeb2e4a39e0516bd7ab0988abc396.<br />
+Checksum RipeMD160 is b800f5350278ebb641f7b1eb7ddf832bcbbb685b.<br />
+Checksum BLAKE2B is 5cf3641076012fd39bcf49df73cf6d07fc09fce953e8e3ccdb57002f6415723c61a2f10e05e71a31d9c04eb909d27a57037180159742dee6e2683613ec9eb6ca.<br />
+Calcul des cheksums du fichier : ./binclang32/Release/lesson12.exe.<br />
+Checksum CRC32  is 100c986b.<br />
+Checksum MD5 is ace591439522581550f55be17df7f058.<br />
+Checksum SHA256 is 54444970db2d12efc38f65a61f3a6b61434745393a8bdfc7654d065e9a753c12.<br />
+Checksum SHA512 is 95ea4cff63424d19258f21c67a7a8e0f05c73bd48a450f8daac1cd794f4abd321d92d0ec61b845ed5f43eb8fe0423f4b20bcdd42a0a4b1e8599290cd53f6ad61.<br />
+Checksum RipeMD160 is 740b0426575ec9092e9ae8f8d84cd43039d58e1a.<br />
+Checksum BLAKE2B is 5fe6b8d12567799c5ae715a34805047fa753c08bcb6c4489913458d3457aebed55afddc04797ad068ecf20100d2b6eaab989b6ae7a6bd91fd0af0f838e50c86c.<br />
+Calcul des cheksums du fichier : ./binclang64/Debug/lesson12.exe.<br />
+Checksum CRC32  is 87721a56.<br />
+Checksum MD5 is dd7f5719caf3f4800adda79863ed467e.<br />
+Checksum SHA256 is b5027247bf2f8bf164d1948aff67ff5b52b8ca3b6c2d2b14b0ebd1c599b22ac6.<br />
+Checksum SHA512 is fb0d036437518834e363fde48ece77d7cc96aa53cbbdd423483ce31a7e8bda4a19f77b5fa04ff2669bfd9ca6027712c8ee6a2ee1539bf082980daed54067c5e2.<br />
+Checksum RipeMD160 is 28208256c4af81cb5e990cfdf47285eca9c33a22.<br />
+Checksum BLAKE2B is 4d87c044c7b4957fd601ea3874daee5d43b610e59f7bd6dce108f74a77b509c5c9d639235241ae3cd73dfcdaf4a58523c835765ca60092badea3ae9313801481.<br />
+Calcul des cheksums du fichier : ./binclang64/Release/lesson12.exe.<br />
+Checksum CRC32  is 8a63d0ea.<br />
+Checksum MD5 is 3c7c4e1633cfbee9493c5d28baa3c1bd.<br />
+Checksum SHA256 is 17ae5f7db541faaf58dc38d6428f855e95674038643feccfb440a8d58a918c60.<br />
+Checksum SHA512 is fb4634f2ff348b86060bad196af47cb1af5fc3f0eca7a7b3dd02d8eb090e7f14f0d914bdf396b5288e894832e2f35140c5291bdf9db7cb34bab7aa70d3a8cfd6.<br />
+Checksum RipeMD160 is 06c81fd7d2a8f9cf5fee44b9787a3ca53e8820c8.<br />
+Checksum BLAKE2B is 92b4a46db24071aead7d95efa0440e699b88fc8d76c0708bd6fffa38fc8fb19c49d1bf2debf408d9b008bb7f09090272dc0f8e2736ac2e9f48203c797a088503.<br />
+7z a lesson12_""date +"%Y-%m-%d"""_src.7z src/* res/* data/* build.cmake/* build.shell/* *.bat *.txt *.html *.md doxygen/* doc/* *.cbp *.workspace '-x!*.bak' -mhe=on -p"lesson12_tde@03!"<br />
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21<br />
+p7zip Version 16.02 (locale=fr_FR.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz (A0652),ASM,AES-NI)<br />
+Scanning the drive:<br />
+86 folders, 577 files, 3163483 bytes (3090 KiB)<br />
+Creating archive: lesson12_2023-03-26_src.7z<br />
+Items to compress: 663<br />
+Files read from disk: 577<br />
+Archive size: 577849 bytes (565 KiB)<br />
+Everything is Ok<br />
+7z a -ttar lesson12_""date +"%Y-%m-%d"""_all.tar * '-x!*.bak'  '-x!*.7z'<br />
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21<br />
+p7zip Version 16.02 (locale=fr_FR.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz (A0652),ASM,AES-NI)<br />
+Scanning the drive:<br />
+127 folders, 672 files, 3883501 bytes (3793 KiB)<br />
+Creating archive: lesson12_2023-03-26_all.tar<br />
+Items to compress: 799<br />
+Files read from disk: 799<br />
+Archive size: 4494336 bytes (4389 KiB)<br />
+Everything is Ok<br />
+7z a lesson12_""date +"%Y-%m-%d"""_all.7z *_all.tar -mhe=on -p"lesson12_tde@03!"<br />
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21<br />
+p7zip Version 16.02 (locale=fr_FR.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz (A0652),ASM,AES-NI)<br />
+Scanning the drive:<br />
+1 file, 4494336 bytes (4389 KiB)<br />
+Creating archive: lesson12_2023-03-26_all.7z<br />
+Items to compress: 1<br />
+Files read from disk: 1<br />
+Archive size: 661754 bytes (647 KiB)<br />
+Everything is Ok<br />
+rm --interactive=never *.tar || true<br />
+<font color="#0000ff">Process terminated with status 0 (0 minute(s), 1 second(s))</font><br />
+<font color="#0000ff">0 error(s), 0 warning(s) (0 minute(s), 1 second(s))</font><br />
+</tt>
+</body>
+</html>
