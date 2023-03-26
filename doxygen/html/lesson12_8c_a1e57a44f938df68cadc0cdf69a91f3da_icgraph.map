@@ -1,0 +1,6 @@
+<map id="ImageLoad" name="ImageLoad">
+<area shape="rect" id="node1" title="Fonction ImageLoad : fonction chargeant une image stockée dans un fichier BMP." alt="" coords="375,5,461,32"/>
+<area shape="rect" id="node2" href="$lesson12_8c.html#a00c6b48abc9d3ddb84a078c9ef6d8570" title="Fonction LoadGLTextures : fonction chargeant la texture à appliquer à un objet avec des instructions ..." alt="" coords="209,5,327,32"/>
+<area shape="rect" id="node3" href="$lesson12_8c.html#ac8d2055368b431f82f03449410409ad0" title="Fonction InitGL : fonction gerant les caractéristiques de base de la scéne lorsque avec des instructi..." alt="" coords="104,5,161,32"/>
+<area shape="rect" id="node4" href="$lesson12_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="Programme Main obligatoire pour les programmes sous Linux (OpenGL en mode console)." alt="" coords="5,5,56,32"/>
+</map>

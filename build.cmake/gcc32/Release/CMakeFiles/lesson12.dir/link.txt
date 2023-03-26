@@ -1,0 +1,1 @@
+/usr/bin/gcc -Wall -std=c11  -s -DNDEBUG -std=c11 -m32 CMakeFiles/lesson12.dir/src/lesson12.c.o CMakeFiles/lesson12.dir/src/logger.c.o -o /home/thierry/Sources/Opengl/Lesson12/bingcc32/Release/lesson12.exe  -lGL -lglut -lGLU -lm 
